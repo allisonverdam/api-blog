@@ -1,4 +1,6 @@
 const app = require('express')();
+app.config = require('./config');
+const datasource = require('./config/datasource')(app);
 
 const auth = require('./routes/auth');
 
