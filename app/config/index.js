@@ -12,7 +12,7 @@ module.exports = {
     dev: {
         database: 'api_blog',
         username: 'root',
-        password: '',
+        password: 'root',
         params: {
             host: 'localhost',
             port: 3306
